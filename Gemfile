@@ -18,6 +18,11 @@ gem "unicorn-worker-killer", "0.4.4"
 gem "diaspora_federation-json_schema", "0.2.6"
 gem "diaspora_federation-rails", "0.2.6"
 
+# Mutant
+
+gem 'mutant-rspec'
+gem 'mutant-license', '~> 0.1.0'
+
 # API and JSON
 
 gem "acts_as_api", "1.0.1"
